@@ -1,0 +1,124 @@
+.mainHeader{
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  width: 100%;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid rgb(75, 89, 99);
+}
+
+img {
+  height: 80px;
+  width: 80px;
+}
+
+.menu-information {
+  display: flex;
+  flex-direction: column;
+}
+
+.inline-avaliation {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 2%;
+}
+
+.icon{
+  width: 30px;
+  padding: 0 10px 0 0;
+  color: rgb(75, 89, 99);
+}
+
+.info{
+  width: 40px;
+  padding: 0 10px 0 10px;
+  color: rgb(75, 89, 99);
+}
+
+/* O ícone dentro de um parágrafo */
+.inline-avaliation p, a{
+  vertical-align: middle; 
+}
+
+/* Estilize o parágrafo para acomodar o ícone */
+.inline-avaliation p, a{
+  display: flex;
+  align-items: center; 
+}
+
+.inline-avaliation a{
+  text-decoration: none;
+  gap: 5px;
+  color: rgb(31, 105, 193);
+}
+
+.views{
+  margin-left: 20px;
+}
+
+/*Popover*/
+.popover-container {
+  position: relative;
+  display: flex;
+}
+
+.info {
+  cursor: pointer;
+}
+
+.popover-content {
+  position: absolute;
+  background-color: rgb(75, 89, 99);
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  z-index: 1;
+  margin-top: 10px;
+  top: 100%; /* Coloca o topo do popover abaixo do botão */
+  left: 50%; /* Centraliza o popover em relação ao botão */
+  transform: translateX(-50%); /* Corrige a centralização ao longo do eixo X */
+  white-space: nowrap; /* Impede que o texto quebre em várias linhas */
+}
+
+.popover-container:hover .popover-content {
+  display: block;
+}
+
+.popover-arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid rgb(75, 89, 99);
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+
+@media (max-width: 768px) {
+
+  .cabecalho{
+    display: flex;
+    flex-direction: column;
+    border: none;
+  }
+
+  .inline-avaliation{
+    margin-top: 10px;
+    font-size: 14px;
+    white-space: nowrap;
+  }
+
+  .info{
+    display: none;
+  }
+
+}

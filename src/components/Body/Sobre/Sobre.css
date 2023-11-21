@@ -1,0 +1,39 @@
+.about {
+  width: 23%;
+  display: flex;
+  flex-direction: column;
+}
+
+.abouts {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 5px;
+  padding: 2%;
+}
+
+.explain{
+  margin-top: 10%;
+  border-bottom: 1px solid black;
+}
+
+.explains{
+  padding: 10px 0 35px 0;
+}
+
+.explains2 {
+  padding: 5px 0 5px 0;
+}
+
+.explains2_text{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@media (max-width: 768px) {
+  .about{
+    width: 100vw;
+  }
+}

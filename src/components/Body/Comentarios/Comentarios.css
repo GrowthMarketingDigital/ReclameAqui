@@ -1,0 +1,51 @@
+article {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.comentario {
+  background: rgb(249, 249, 249);
+  border-radius: 20px;
+  padding: 15px;
+  margin: 10px 0 10px 0;
+}
+
+.comentario h4 {
+  margin-bottom: 20px;
+  color: rgb(31, 105, 193);
+}
+
+.comentario p {
+}
+
+.resolvido {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 2%;
+}
+
+.icon2 {
+  padding: 0;
+  width: auto;
+  color: white;
+}
+
+.resolvido span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(2, 121, 62);
+  color: white;
+  border-radius: 20px;
+  padding: 5px 10px;
+  gap: 5px;
+}
+
+.leia {
+  text-align: center;
+  color: rgb(31, 105, 193);
+  cursor: pointer;
+}
+

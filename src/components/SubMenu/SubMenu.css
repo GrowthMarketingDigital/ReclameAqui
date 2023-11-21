@@ -1,0 +1,50 @@
+.submenu {
+  padding: 10px;
+}
+
+.submenu ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  list-style: none;
+}
+
+.submenu li {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.submenu li svg{
+  color: rgb(75, 89, 99);
+}
+
+.icon-list{
+  padding: 0 3px 0 0;
+}
+
+@media (max-width: 768px) {
+  .submenu {
+    display: flex;
+    overflow-x: scroll;
+  }
+
+  .submenu ul {
+    display: flex;
+    list-style: none;
+  }
+
+  .submenu li {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    white-space: nowrap;
+
+  }
+
+  .submenu li svg{
+    display: none;
+  }
+
+}
