@@ -36,7 +36,7 @@ const Header = () => {
                 <nav className="menu-information">
                     <div className="information">
                         <h2 className="short-name" title="CassinoPix">
-                            Cassino Pix
+                            CassinoPix
                         </h2>
                     </div>
 

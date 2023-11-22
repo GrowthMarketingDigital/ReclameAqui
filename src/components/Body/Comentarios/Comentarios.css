@@ -16,9 +16,6 @@ article {
   color: rgb(31, 105, 193);
 }
 
-.comentario p {
-}
-
 .resolvido {
   display: flex;
   align-items: center;
@@ -49,3 +46,8 @@ article {
   cursor: pointer;
 }
 
+.botao{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}

@@ -1,14 +1,16 @@
-#btn {
+#btn-react-RA {
   display: flex;
   align-items: center;
-  background-color: rgb(64, 195, 81);
+  background-color: rgb(2, 85, 189);
+  color: white;
+  font-size: medium;
   border-radius: 10px;
   border: none;
   padding: 10px;
   cursor: pointer;
 }
 
-svg {
+button img {
   width: 30px;
   height: 30px;
   padding: 5px;

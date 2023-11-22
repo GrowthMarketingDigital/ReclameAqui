@@ -4,6 +4,9 @@ import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faFaceSmile } from "@fortawesome/free-solid-svg-icons"
 
+//components
+import Button2 from "../../Button/Button2";
+
 //style
 import "./Comentarios.css"
 
@@ -44,7 +47,7 @@ const Comentarios = () => {
         <p>Fiz R$ 4000 com R$100 de entrada. Realmente muito bom. Já passei pra família toda, tio, tia, sogro, sogra, namorada. To muito feliz porque agora eu vou conseguir kitar o meu carro. Vou começar a jogar todo dia desse jeito. Eu era jogador em várias plataformas, mas hoje eu sou jogador só na Cassino.</p>
         <div className="resolvido">
           <span><FontAwesomeIcon className="icon2" icon={faFaceSmile} />Resolvido</span>
-          <p>Há 4 dias</p>
+          <p>Há 1 dia</p>
         </div>
       </div>
 
@@ -63,7 +66,7 @@ const Comentarios = () => {
         <p>A Cassino sempre surpreendeu, nunca tive um único problema até hoje com eles.</p>
         <div className="resolvido">
           <span><FontAwesomeIcon className="icon2" icon={faFaceSmile} />Resolvido</span>
-          <p>Há 4 dias</p>
+          <p>Há 3 dias</p>
         </div>
       </div>
 
@@ -89,7 +92,7 @@ const Comentarios = () => {
             <p>Recomendo muito a CassinoPix para quem procura uma casa de apostas segura e confiável.</p>
             <div className="resolvido">
               <span><FontAwesomeIcon className="icon2" icon={faFaceSmile} />Resolvido</span>
-              <p>Há 4 dias</p>
+              <p>Há 5 dias</p>
             </div>
           </div>
 
@@ -98,7 +101,7 @@ const Comentarios = () => {
             <p>Sempre tive receio de apostar online, mas depois de conhecer a CassinoPix, esse receio passou. O site é muito seguro e confiável, com criptografia de dados de última geração.</p>
             <div className="resolvido">
               <span><FontAwesomeIcon className="icon2" icon={faFaceSmile} />Resolvido</span>
-              <p>Há 4 dias</p>
+              <p>Há 2 dias</p>
             </div>
           </div>
 
@@ -107,7 +110,7 @@ const Comentarios = () => {
             <p>Gosto muito dos bônus e promoções da CassinoPix. Sempre eles me dão cupons e fazem sorteio de carros e iphones.</p>
             <div className="resolvido">
               <span><FontAwesomeIcon className="icon2" icon={faFaceSmile} />Resolvido</span>
-              <p>Há 4 dias</p>
+              <p>Há 3 dias</p>
             </div>
           </div>
 
@@ -134,7 +137,7 @@ const Comentarios = () => {
             <p>Jogo quase todo dia na roleta e vale muito a pena. Nunca tive problema em sacar.</p>
             <div className="resolvido">
               <span><FontAwesomeIcon className="icon2" icon={faFaceSmile} />Resolvido</span>
-              <p>Há 4 dias</p>
+              <p>Há 1 dia</p>
             </div>
           </div>
 
@@ -143,7 +146,7 @@ const Comentarios = () => {
             <p>Jogo todos os dias o Tigrinho e o ninja e essa casa paga muito socorroooo. Já recomendei a familiares e amigos.</p>
             <div className="resolvido">
               <span><FontAwesomeIcon className="icon2" icon={faFaceSmile} />Resolvido</span>
-              <p>Há 4 dias</p>
+              <p>Há 2 dias</p>
             </div>
           </div>
 
@@ -152,7 +155,7 @@ const Comentarios = () => {
             <p>Jogo desde o começo do ano e nunca nem precisei acionar o suporte para me ajudar</p>
             <div className="resolvido">
               <span><FontAwesomeIcon className="icon2" icon={faFaceSmile} />Resolvido</span>
-              <p>Há 4 dias</p>
+              <p>Há 3 dias</p>
             </div>
           </div>
 
@@ -161,7 +164,9 @@ const Comentarios = () => {
           )}
         </>
       )}
-
+      <div className="botao">
+        <Button2 />
+      </div>
     </article>
   )
 }

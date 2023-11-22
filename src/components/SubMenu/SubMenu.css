@@ -21,7 +21,17 @@
 }
 
 .icon-list{
-  padding: 0 3px 0 0;
+  font-size: 23px;
+  margin-right: 5px;
+}
+
+.icon-list2,
+.icon-list3,
+.icon-list4,
+.icon-list5,
+.icon-list6 {
+  margin-right: 5px;
+  font-size: 18px;
 }
 
 @media (max-width: 768px) {

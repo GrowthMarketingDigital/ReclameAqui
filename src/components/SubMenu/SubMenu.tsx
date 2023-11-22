@@ -14,11 +14,11 @@ const SubMenu = () => {
     <div className="submenu">
         <ul>
             <li><MdOutlineHome className='icon-list'/>Página Inicial</li>
-            <li><FaBullhorn />Reclamações</li>
-            <li><BiSolidCoupon />Cupons de desconto</li>
-            <li><BiSolidMessageDots />Sobre</li>
-            <li><TbUserQuestion />FAQ</li>
-            <li><BiMessageError/>Principais Problemas</li>
+            <li><FaBullhorn className='icon-list2'/>Reclamações</li>
+            <li><BiSolidCoupon className='icon-list3'/>Cupons de desconto</li>
+            <li><BiSolidMessageDots className='icon-list4'/>Sobre</li>
+            <li><TbUserQuestion className='icon-list5'/>FAQ</li>
+            <li><BiMessageError className='icon-list6'/>Principais Problemas</li>
         </ul>
     </div>
   )

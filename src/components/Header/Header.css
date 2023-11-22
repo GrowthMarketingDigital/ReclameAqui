@@ -113,8 +113,9 @@ img {
 
   .inline-avaliation{
     margin-top: 10px;
-    font-size: 14px;
+    font-size: 15px;
     white-space: nowrap;
+    margin-bottom: 10px;
   }
 
   .info{
